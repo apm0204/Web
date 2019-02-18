@@ -6,20 +6,30 @@
         <base href="https://apm0204.github.io/Web/"> <!-- 같은호스트안에서 여러 페이지를 링크할때 base를 사용한다. -->
     </head>
     <body>
+        <ol>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ol>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+        </ul>
         <h1>HTML TAG</h1>  <!--  h는 제목, 크기를 1~6까지 사용한다 --> <!-- 본문을 바꿀때 h를 쓰는건 좋지않다 -->
         <hr />
         <h2>1.HTML 개요</h2> <!-- 36~ 39p-->
         <p><a href = "index.html" target="_blank" title="hello, world">HTML</a>은 하이퍼텍스트 마크업 언어(HyperText Markup Language라는 <!-- <a>는 하이퍼링크</a>를 사용  --> <!-- title태그 툴팁을 사용-->
-            의미의 웹 페이지를 위한 지배적인 마크업 언어다.</p> <!-- base를 안쓰면 ./index.html 이런식으로 써야한다. ./은 본인의 디폴트주소-->
+            의미의 웹 페이지를 위한 지배적인 마크업 언어다.</p> <!-- 6번줄 base를 안쓰면 ./index.html 이런식으로 써야한다. ./은 본인의 디폴트주소-->
         <p><a href = "htmlTest.html" target="_blank" title="html structure">HTML</a>은 하이퍼텍스트 마크업 언어(HyperText Markup Language라는 <!-- <a>는 하이퍼링크</a>를 사용  --> <!-- title태그 툴팁을 사용-->
             의미의 웹 페이지를 위한 지배적인 마크업 언어다.</p>
         <p>HTML은 하이퍼텍스트 마크업 언어(HyperText Markup Language라는 <br />
             의미의 웹 페이지를 위한 지배적인 마크업 언어다.</p>
         <p><a href = "#down" target="_blank" title="pre tag">&lt;HTML&gt;</a>은 하이퍼텍스트 마크업 언어(HyperText Markup Language라는&nbsp;&nbsp; <!-- 같은페이지안에서 특정페이지로 이동할때 사용한다.-->
             의미의 웹 페이지를 위한 지배적인 마크업 언어다.</p>
-        <hr />
-        <img src="html5.jpg" width="50%" />
-        <hr />
+        <hr /> <!-- 이미지 39p~ 42p-->
+        <img src="html5.jpg" width="50%" alt="https://placeholder.it/350x150"/>  <!--단독 태그, src = "파일명", 원본대비 50% 출력 --> <!-- 큰틀은 html에서 , 세부적인 내용은 css에서 분리해서 관리한다.-->
+        <hr />                      <!-- alt 넣은 이미지가 문제가 있으면 alt를 이용해서 대체이미지가 들어간다.-->
         <!-- 검색엔진에서의 차이를 주기위해서 기능의 차이는 없지만 중요도의 차이를 줘서 검색을 할 수 있다. -->
         <p><b>굵은 글씨</b><br /><strong>굵은 중요한 글씨</strong></p> <!-- 차이는 눈에 보이지않지만, <strong>>을 써서 중요한경우 검색에 용이하다. -->
         <p><i>기울어진 글씨</i><br /><em>기울어진 중요한 글씨</em></p> <!-- 차이는 눈에 보이지않지만, em을 써서 중요한경우 검색에 용이하다. -->
